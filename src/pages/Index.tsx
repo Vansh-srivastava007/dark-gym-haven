@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Navbar } from "@/components/Navbar";
-import { AITrainerModal } from "@/components/AITrainerModal";
+import { FitnessChatbot } from "@/components/FitnessChatbot";
 import Hero from "@/components/Hero";
 import Programs from "@/components/Programs";
 import Pricing from "@/components/Pricing";
@@ -9,11 +9,11 @@ import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
 const Index = () => {
-  const [aiModalOpen, setAiModalOpen] = useState(false);
+  const [chatbotOpen, setChatbotOpen] = useState(false);
 
   return (
     <div className="min-h-screen">
-      <Navbar onOpenAI={() => setAiModalOpen(true)} />
+      <Navbar onOpenAI={() => setChatbotOpen(true)} />
       <div id="home">
         <Hero />
       </div>
@@ -28,7 +28,7 @@ const Index = () => {
         <Contact />
       </div>
       <Footer />
-      <AITrainerModal open={aiModalOpen} onOpenChange={setAiModalOpen} />
+      <FitnessChatbot open={chatbotOpen} onOpenChange={setChatbotOpen} />
     </div>
   );
 };
