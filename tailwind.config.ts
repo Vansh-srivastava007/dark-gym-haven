@@ -14,8 +14,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        'display': ['Bebas Neue', 'sans-serif'],
-        'sans': ['Inter', 'sans-serif'],
+        'display': ['Montserrat', 'sans-serif'],
+        'sans': ['Poppins', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",

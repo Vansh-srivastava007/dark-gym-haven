@@ -27,11 +27,26 @@ const Hero = () => {
           Transform your body and mind at the most advanced fitness facility in the city
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in" style={{ animationDelay: '0.4s' }}>
-          <Button size="lg" className="gradient-primary text-lg px-8 py-6 glow-primary hover:scale-105 transition-smooth">
+          <Button
+            size="lg"
+            onClick={() => {
+              const element = document.getElementById('pricing');
+              if (element) element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }}
+            className="gradient-primary text-lg px-8 py-6 glow-primary hover:scale-105 transition-smooth"
+          >
             Start Free Trial
             <ArrowRight className="ml-2 h-5 w-5" />
           </Button>
-          <Button size="lg" variant="outline" className="text-lg px-8 py-6 border-2 hover:bg-secondary transition-smooth">
+          <Button
+            size="lg"
+            variant="outline"
+            onClick={() => {
+              const element = document.getElementById('programs');
+              if (element) element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }}
+            className="text-lg px-8 py-6 border-2 hover:bg-secondary transition-smooth"
+          >
             View Programs
           </Button>
         </div>
