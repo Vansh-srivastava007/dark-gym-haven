@@ -3,6 +3,7 @@ import { Navbar } from "@/components/Navbar";
 import { FitnessChatbot } from "@/components/FitnessChatbot";
 import Hero from "@/components/Hero";
 import Programs from "@/components/Programs";
+import Gallery from "@/components/Gallery";
 import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
 import Contact from "@/components/Contact";
@@ -20,6 +21,9 @@ const Index = () => {
       </div>
       <div id="programs">
         <Programs />
+      </div>
+      <div id="gallery">
+        <Gallery />
       </div>
       <div id="pricing">
         <Pricing />

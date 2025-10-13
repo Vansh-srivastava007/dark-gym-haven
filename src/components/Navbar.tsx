@@ -17,7 +17,7 @@ interface NavbarProps {
 const defaultLinks: NavLink[] = [
   { label: "Home", href: "#home" },
   { label: "Membership", href: "#pricing" },
-  { label: "Gallery", href: "#programs" },
+  { label: "Gallery", href: "#gallery" },
   { label: "Contact Us", href: "#contact" },
 ];
 
