@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
-            <h3 className="font-display text-3xl mb-4 text-primary">APEX</h3>
+            <h3 className="font-display text-3xl mb-4 text-primary">BIG HOUSE GYM</h3>
             <p className="text-muted-foreground">
               Transform your body and mind at the most advanced fitness facility.
             </p>
@@ -52,7 +52,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-border pt-8 text-center text-muted-foreground">
-          <p>&copy; 2025 APEX Fitness. All rights reserved.</p>
+          <p>&copy; 2025 Big House Gym. All rights reserved.</p>
         </div>
       </div>
     </footer>

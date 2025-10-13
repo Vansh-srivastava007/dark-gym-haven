@@ -5,7 +5,7 @@ const testimonials = [
   {
     name: "Sarah Mitchell",
     role: "Member since 2023",
-    content: "APEX transformed my life. Lost 30lbs and gained incredible strength. The trainers are world-class!",
+    content: "Big House Gym transformed my life. Lost 30lbs and gained incredible strength. The trainers are world-class!",
     rating: 5,
   },
   {

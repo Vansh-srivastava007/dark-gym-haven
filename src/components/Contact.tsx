@@ -44,7 +44,7 @@ const Contact = () => {
               <Mail className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
               <div>
                 <h3 className="font-bold text-lg mb-1">Email</h3>
-                <p className="text-muted-foreground">info@apexfitness.com</p>
+                <p className="text-muted-foreground">info@bighousegym.com</p>
               </div>
             </div>
 
