@@ -7,13 +7,14 @@ import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import logo from "@/assets/logo.jpeg";
 
 const Index = () => {
   const [chatbotOpen, setChatbotOpen] = useState(false);
 
   return (
     <div className="min-h-screen">
-      <Navbar onOpenAI={() => setChatbotOpen(true)} />
+      <Navbar logo={logo} onOpenAI={() => setChatbotOpen(true)} />
       <div id="home">
         <Hero />
       </div>
