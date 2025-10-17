@@ -17,7 +17,7 @@ const Hero = () => {
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center">
-        <h1 className="font-display text-7xl md:text-9xl mb-6 animate-fade-in">
+        <h1 className="font-display text-5xl md:text-7xl mb-6 animate-fade-in">
           UNLEASH YOUR
           <span className="block bg-gradient-to-r from-primary to-orange-500 bg-clip-text text-transparent">
             POTENTIAL
