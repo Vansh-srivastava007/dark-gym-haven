@@ -8,7 +8,7 @@ import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
-import logo from "@/assets/logo.jpeg";
+import logo from "@/assets/logo.png";
 
 const Index = () => {
   const [chatbotOpen, setChatbotOpen] = useState(false);
