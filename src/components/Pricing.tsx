@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card";
 import { Check } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const plans = [
   {
@@ -46,6 +47,12 @@ const plans = [
 ];
 
 const Pricing = () => {
+  const navigate = useNavigate();
+
+  const handleGetStarted = (plan: typeof plans[0]) => {
+    navigate("/membership-checkout", { state: { plan } });
+  };
+
   return (
     <section className="py-24 px-4 gradient-dark">
       <div className="container mx-auto">
@@ -95,6 +102,7 @@ const Pricing = () => {
                       : "bg-secondary hover:bg-secondary/80"
                   }`}
                   size="lg"
+                  onClick={() => handleGetStarted(plan)}
                 >
                   Get Started
                 </Button>
