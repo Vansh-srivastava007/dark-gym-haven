@@ -111,16 +111,11 @@ export const Navbar = ({ logo, links = defaultLinks, onOpenAI }: NavbarProps) =>
               aria-label="Big House Gym - Go to home"
             >
               <div className="flex items-center gap-2">
-                {logo ? (
-                  <img src={logo} alt="Big House Gym" className="h-10 w-auto" />
-                ) : (
-                  <>
-                    <Dumbbell className="h-8 w-8 text-primary" aria-hidden="true" />
-                    <span className="text-2xl font-display font-bold text-foreground">
-                      Big House Gym
-                    </span>
-                  </>
-                )}
+                {logo && <img src={logo} alt="Big House Gym" className="h-10 w-auto" />}
+                {!logo && <Dumbbell className="h-8 w-8 text-primary" aria-hidden="true" />}
+                <span className="text-2xl font-display font-bold text-foreground">
+                  Big House Gym
+                </span>
               </div>
               <span className="text-xs text-muted-foreground mt-1 hidden md:block">
                 Near Mahavir Mandir, Aurangabad, Bihar
