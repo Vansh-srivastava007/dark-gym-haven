@@ -3,19 +3,19 @@ import { Star } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Sarah Mitchell",
+    name: "Aman Singh",
     role: "Member since 2023",
     content: "Big House Gym transformed my life. Lost 30lbs and gained incredible strength. The trainers are world-class!",
     rating: 5,
   },
   {
-    name: "Marcus Johnson",
+    name: "Pratham Gupta",
     role: "Member since 2022",
     content: "Best gym I've ever been to. Equipment is top-notch and the community is incredibly supportive.",
     rating: 5,
   },
   {
-    name: "Emily Chen",
+    name: "Shubham Kumar",
     role: "Member since 2023",
     content: "The HIIT classes are intense but amazing. I've seen results faster than I ever imagined possible.",
     rating: 5,
