@@ -28,7 +28,7 @@ const Contact = () => {
               <MapPin className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
               <div>
                 <h3 className="font-bold text-lg mb-1">Location</h3>
-                <p className="text-muted-foreground">123 Fitness Boulevard<br />Downtown, CA 90210</p>
+                <p className="text-muted-foreground">Near Mahavir Mandir, Aurangabad 824101</p>
               </div>
             </div>
 
